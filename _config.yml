@@ -28,3 +28,6 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
   - redcarpet
+
+# Google Analytics
+google_analytics: G-6LFBJ4RPL0
