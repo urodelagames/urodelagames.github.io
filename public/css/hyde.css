@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -80,7 +80,7 @@ html {
   color: #fff;
   margin-top: 0;
   font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-size: 2rem;
 }
 
 /* Sidebar nav */
@@ -251,9 +251,9 @@ a.sidebar-nav-item:focus {
 
 /* David's Themes */
 .theme-base-dd0 .sidebar {
-  background-color: #568867;
+  background-color: #677f5f;
 }
 .theme-base-dd0 .content a,
 .theme-base-dd0 .related-posts li a:hover {
-  color: #568867;
+  color: #677f5f;
 }

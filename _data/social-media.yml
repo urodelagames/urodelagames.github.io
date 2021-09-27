@@ -1,0 +1,24 @@
+email:
+  id: 'urodelagames@gmail.com'
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'fa-envelope-square'
+
+# facebook:
+#   id: 'your-facebook-username'
+#   href: 'https://www.facebook.com/'
+#   title: 'Facebook'
+#   fa-icon: 'fa-facebook-square'
+
+twitter:
+  id: 'urodelagames'
+  href: 'https://www.twitter.com/urodelagames'
+  title: 'Twitter'
+  fa-icon: 'fa-twitter-square'
+
+itchio:
+  id: 'urodelagames'
+  href: 'https://urodela.itch.io'
+  title: 'Itch.io'
+  fa-icon: 'fa-itch-io'
+
