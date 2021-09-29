@@ -10,7 +10,7 @@ title:            Urodela Games
 tagline:          'Game Development by David Dalisay'
 description:      'A blog by indie game dev David Dalisay <a href="https://twitter.com/urodelagames" target="_blank">@urodelagames</a>.'
 url:              https://urodelagames.github.io
-baseurl:          /
+baseurl:          ""
 
 author:
   name:           'David Dalisay'
