@@ -1,0 +1,32 @@
+I"8<p class="message">
+  Hello! My name is David Dalisay but I usually go by the name Urodela Games.
+</p>
+
+<p>I’m a solo indie game developer from Arlington, VA in USA. This is my blog about game development things. Game dev involves way too many things, but I enjoy almost all of it. I enjoy game design the most - So I talk a lot about how the dev, art, and music choices I make impact my game’s overall game design.</p>
+
+<p>I recently made a game called <a href="https://urodelagames.github.io/hexagourds">Hexagourds</a>: A relaxing rotate-em-up game where you make a pumpkin patch.</p>
+
+<p>There are currently two themes built on Poole:</p>
+
+<ul>
+  <li><a href="http://hyde.getpoole.com">Hyde</a></li>
+  <li><a href="http://lanyon.getpoole.com">Lanyon</a></li>
+</ul>
+
+<p>Learn more and contribute on <a href="https://github.com/poole">GitHub</a>.</p>
+
+<h2 id="setup">Setup</h2>
+
+<p>Some fun facts about the setup of this project include:</p>
+
+<ul>
+  <li>Built for <a href="http://jekyllrb.com">Jekyll</a></li>
+  <li>Developed on GitHub and hosted for free on <a href="https://pages.github.com">GitHub Pages</a></li>
+  <li>Coded with <a href="http://sublimetext.com">Sublime Text 2</a>, an amazing code editor</li>
+  <li>Designed and developed while listening to music like <a href="https://soundcloud.com/maddecent/sets/blood-bros-series">Blood Bros Trilogy</a></li>
+</ul>
+
+<p>Have questions or suggestions? Feel free to <a href="https://github.com/poole/issues/new">open an issue on GitHub</a> or <a href="https://twitter.com/mdo">ask me on Twitter</a>.</p>
+
+<p>Thanks for reading!</p>
+:ET
