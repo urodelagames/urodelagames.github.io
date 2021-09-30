@@ -9,7 +9,11 @@
       <p class="lead">{{ site.description }}</p>
     </div>
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item active" href="//urodelagames.github.io">Home</a>
+      {% if jekyll.environment == "development" %}
+        <a class="sidebar-nav-item active" href="{{ site.baseurl }}">Home</a>
+      {% else %}
+        <a class="sidebar-nav-item active" href="//urodelagames.github.io">Home</a>
+      {% endif %}
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
         `layout: page` in the front-matter. See readme for usage.
