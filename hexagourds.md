@@ -25,10 +25,10 @@ title: Hexagourds
 
 ### Gallery
 
-<img src="/photos/Hexagourds_Rotate.gif" width="960" height="540"/>
-<img src="/photos/SpedUpSmallPlaythrough_2x_Trim.gif" width="960" height="540"/>
-<img src="/photos/MediumGrid_GoatEat.gif" width="960" height="540"/>
-<img src="/photos/MediumGrid_Apples.gif" width="960" height="540"/>
-<img src="/photos/HexagourdsSpedUp5x_09_17_2021.gif" width="960" height="540"/>
-<img src="/photos/MediumGrid_Haybales.gif" width="960" height="540"/>
-<img src="/photos/HexagourdsSpedUp5x_09_17_2021.gif" width="960" height="540"/>
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/Hexagourds_Rotate.gif" width="960" height="540"/>
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/SpedUpSmallPlaythrough_2x_Trim.gif" width="960" height="540"/>
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/MediumGrid_GoatEat.gif" width="960" height="540"/>
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/MediumGrid_Apples.gif" width="960" height="540"/>
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/HexagourdsSpedUp5x_09_17_2021.gif" width="960" height="540"/>
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/MediumGrid_Haybales.gif" width="960" height="540"/>
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/HexagourdsSpedUp5x_09_17_2021.gif" width="960" height="540"/>

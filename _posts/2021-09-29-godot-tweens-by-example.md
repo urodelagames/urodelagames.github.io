@@ -25,13 +25,13 @@ When you use a Tween, the Tween automatically generates a bunch of keyframes in 
 
 # Before & After Tweens
 I use a Tween to animate the smooth rotation of this Hexagon tile when a player right clicks the tile.
-<img src="/photos/CloseUp.PNG" width="452" height="363"/>
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/CloseUp.PNG" width="452" height="363"/>
 <br />
 Here's what it looks like to rotate the Hexagon tile 60 degrees *WITHOUT TWEENING*.
-<img src="/photos/HexagonRotateNoLife.gif" width="452" height="363"/>
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/HexagonRotateNoLife.gif" width="452" height="363"/>
 <br />
 And here's what it looks like to rotate the Hexagon tile *WITH JUICY TWEENING*.
-<img src="/photos/HexagourdsRotateLife.gif" width="452" height="363"/>
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/HexagourdsRotateLife.gif" width="452" height="363"/>
 
 The rotation looks smoother right? And more fun.
 
@@ -61,14 +61,14 @@ Transition Types and Ease Types are values you can change in Godot Tweens that c
 * The Ease Type represents if an animation speeds up or slows down at the start or at the end of an animation.
 
 Here's a useful cheatsheet (Not my original content):
-<img src="/photos/tween_cheatsheet.png" width="900" height="700"/>
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/tween_cheatsheet.png" width="900" height="700"/>
 <br />
 In the above (GDScript Syntax) section, I used `BACK` as the Transition Type and `EASE_OUT` as the Ease Type. If you look at graph that says `BACK` on the screenshot, the <span style="color:red">RED line</span> says that our animation will go really fast at the beginning and slow down at the end.
-<img src="/photos/back.PNG" width="255" height="255"/>
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/back.PNG" width="255" height="255"/>
 <br />
 
 This means that when our Tween runs our rotation animation, the hexagon tile will rotate very fast at the beginning and then slow down near the end of the rotation. Notice in the graph that the <span style="color:red">RED line</span> has a huge curve at the top and then comes back down. This makes Hexagon tile rotate slightly too much and then snaps back like a rubberband!
-<img src="/photos/HexagourdsRotateLife.gif" width="452" height="363"/>
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/HexagourdsRotateLife.gif" width="452" height="363"/>
 
 <br />
 <br />
@@ -76,7 +76,7 @@ This means that when our Tween runs our rotation animation, the hexagon tile wil
 
 ### Growing the size/scale of an object. e.g. An Apple
 
-<img src="/photos/HexagourdsAppleTween.gif" width="452" height="363"/>
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/HexagourdsAppleTween.gif" width="452" height="363"/>
 *The Apple grows in size fast initially and then eases out.*
 ```
 tween.interpolate_property(
@@ -89,7 +89,7 @@ tween.interpolate_property(
 	Tween.EASE_OUT
 )
 ```
-<img src="/photos/TransSine.PNG" width="255" height="255"/>
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/TransSine.PNG" width="255" height="255"/>
 *We're using the <span style="color:red">RED line</span>.*
 <br />
 
@@ -98,8 +98,9 @@ tween.interpolate_property(
 
 ### Tweening Translation/Position Change of a button on my HUD
 
-<img src="/photos/HexagourdsFinishButtonTween.gif" width="200" height="200"/>
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/HexagourdsFinishButtonTween.gif" width="200" height="200"/>
 *The finish button notifies the player when it's time to finish the current level by growing and shrinking, back and forth.*
+
 ```
 # This snippet shows how you can chain Tweens together.
 # If you have 2 Tweens, you can make one Tween dependent on the other by using signals (not shown here, but I'll do another blog on signals at some point)
@@ -129,14 +130,15 @@ func shrink() -> void:
 	)
 	$ShrinkTween.start()
 ```
-<img src="/photos/TransSine.PNG" width="255" height="255"/>
+
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/TransSine.PNG" width="255" height="255"/>
 *We're using the <span style="color:red">RED line</span>.*
 
 
 ---
 
 ### Tweening Color Change of Pumpkin
-<img src="/photos/HexagourdsColorChangeTween.gif" width="600" height="363"/>
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/HexagourdsColorChangeTween.gif" width="600" height="363"/>
 *The pumpkin's color goes from white to orange - Fast at the start and slow at the end.*
 ```
 tween.interpolate_property(
@@ -150,14 +152,14 @@ tween.interpolate_property(
 )
 ```
 
-<img src="/photos/TransQuad.PNG" width="255" height="255"/>
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/TransQuad.PNG" width="255" height="255"/>
 *We're using the <span style="color:purple">PURPLE line</span>.*
 
 ---
 
 ### Tweening Size of Game Hints
 
-<img src="/photos/HexagourdsGameHintsTween.gif"/>
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/HexagourdsGameHintsTween.gif"/>
 *The game hints UI window stretches out when needing to notify the player of a new hint!*
 
 ```
@@ -171,7 +173,7 @@ tween.interpolate_property(
 	Tween.EASE_OUT
 )
 ```
-<img src="/photos/Elastic.PNG" width="290" height="390"/>
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/Elastic.PNG" width="290" height="390"/>
 *We're using the <span style="color:red">RED line</span>.* Notice how the graph looks like it's bouncing and stretching all over the place, that is why the game window feels like its stretching in and out!
 
 
