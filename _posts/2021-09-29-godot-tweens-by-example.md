@@ -25,7 +25,7 @@ When you use a Tween, the Tween automatically generates a bunch of keyframes in 
 
 # Before & After Tweens
 I use a Tween to animate the smooth rotation of this Hexagon tile when a player right clicks the tile.
-<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/CloseUp.PNG" width="452" height="363"/>
+<img src="https://raw.githubusercontent.com/urodelagames/urodelagames.github.io/master/photos/CloseUp.PNG" width="452" height="363"/>
 <br />
 Here's what it looks like to rotate the Hexagon tile 60 degrees *WITHOUT TWEENING*.
 <img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/HexagonRotateNoLife.gif" width="452" height="363"/>
@@ -61,10 +61,10 @@ Transition Types and Ease Types are values you can change in Godot Tweens that c
 * The Ease Type represents if an animation speeds up or slows down at the start or at the end of an animation.
 
 Here's a useful cheatsheet (Not my original content):
-<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/tween_cheatsheet.png" width="900" height="700"/>
+<img src="https://raw.githubusercontent.com/urodelagames/urodelagames.github.io/master/photos/tween_cheatsheet.png" width="900" height="700"/>
 <br />
 In the above (GDScript Syntax) section, I used `BACK` as the Transition Type and `EASE_OUT` as the Ease Type. If you look at graph that says `BACK` on the screenshot, the <span style="color:red">RED line</span> says that our animation will go really fast at the beginning and slow down at the end.
-<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/back.PNG" width="255" height="255"/>
+<img src="https://raw.githubusercontent.com/urodelagames/urodelagames.github.io/master/photos/back.PNG" width="255" height="255"/>
 <br />
 
 This means that when our Tween runs our rotation animation, the hexagon tile will rotate very fast at the beginning and then slow down near the end of the rotation. Notice in the graph that the <span style="color:red">RED line</span> has a huge curve at the top and then comes back down. This makes Hexagon tile rotate slightly too much and then snaps back like a rubberband!
@@ -89,7 +89,7 @@ tween.interpolate_property(
 	Tween.EASE_OUT
 )
 ```
-<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/TransSine.PNG" width="255" height="255"/>
+<img src="https://raw.githubusercontent.com/urodelagames/urodelagames.github.io/master/photos/TransSine.PNG" width="255" height="255"/>
 *We're using the <span style="color:red">RED line</span>.*
 <br />
 
@@ -131,7 +131,7 @@ func shrink() -> void:
 	$ShrinkTween.start()
 ```
 
-<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/TransSine.PNG" width="255" height="255"/>
+<img src="https://raw.githubusercontent.com/urodelagames/urodelagames.github.io/master/photos/TransSine.PNG" width="255" height="255"/>
 *We're using the <span style="color:red">RED line</span>.*
 
 
@@ -152,7 +152,7 @@ tween.interpolate_property(
 )
 ```
 
-<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/TransQuad.PNG" width="255" height="255"/>
+<img src="https://raw.githubusercontent.com/urodelagames/urodelagames.github.io/master/photos/TransQuad.PNG" width="255" height="255"/>
 *We're using the <span style="color:purple">PURPLE line</span>.*
 
 ---
@@ -173,7 +173,7 @@ tween.interpolate_property(
 	Tween.EASE_OUT
 )
 ```
-<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/Elastic.PNG" width="290" height="390"/>
+<img src="https://raw.githubusercontent.com/urodelagames/urodelagames.github.io/master/photos/Elastic.PNG" width="290" height="390"/>
 *We're using the <span style="color:red">RED line</span>.* Notice how the graph looks like it's bouncing and stretching all over the place, that is why the game window feels like its stretching in and out!
 
 
