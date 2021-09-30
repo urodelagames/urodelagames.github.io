@@ -1,0 +1,54 @@
+I"A<p class="message">
+If you want to learn how to use Tweens at a basic level in Godot, this blog post is for you!
+</p>
+
+<p class="message">
+Tweens are a simple way to tell Godot "I want you to animate this object in my game. This is what the object looks like now and this is what the object should look like after a few seconds have passed."
+</p>
+
+<p>Below, I’ll provide very simple examples of Godot Tweens using animations from my game, <a href="/hexagourds">Hexagourds</a>.</p>
+
+<h3 id="why-is-it-called-tweening">Why is it called “Tweening”?</h3>
+<p>Tweening is short for “in-betweening”. When you setup in a Tween in Godot, you provide it 2 “keyframes”:</p>
+<ol>
+<li> A keyframe that represents what the object should look like at the beginning of the animation and </li>
+<li> A keyframe that represents what the object should look like at the end of the animation. </li>
+</ol>
+<p>When you use a Tween, the Tween automatically generates a bunch of keyframes in between the two keyframes you provided. And it makes the animation look smooth.</p>
+
+<p>Okay I’ve talked too much.</p>
+
+<h3 id="before--after-tweens">Before &amp; After Tweens</h3>
+<p>I use a Tween to animate the smooth rotation of this Hexagon tile when a player right clicks the tile.
+<img src="/photos/CloseUp.PNG" width="452" height="363" />
+<br />
+Here’s what it looks like to rotate the Hexagon tile 60 degrees <em>WITHOUT TWEENING</em>.
+<img src="/photos/HexagonRotateNoLife.gif" width="452" height="363" />
+<br />
+And here’s what it looks like to rotate the Hexagon tile <em>WITH JUICY TWEENING</em>.
+<img src="/photos/HexagonRotateLife.gif" width="452" height="363" /></p>
+
+<p>The rotation looks smoother right? And more fun.</p>
+
+<h3 id="how-to-use-a-tween-in-godot">How to use a Tween in Godot.</h3>
+
+<h4 id="gdscript-syntax">GDScript Syntax</h4>
+<p>My tween node in my project has a script attached to with the following code.
+Here’s how it works:</p>
+<pre><code>rotateTween.interpolate_property(   # rotateTween is the name of the Tween node. This is telling Godot to create a new animation using this Tween node object.
+    hexagonTile,                    # hexagonTile is the 3D tile we want to animate.
+    "rotation_degrees:y",           # When the Tween runs its animation, we will change the Y value on the tile's rotation.
+    rotation_degrees.y,             # When the Tween runs its animation, it will start at the tile's current rotation.
+    rotation_degrees.y+60           # When the Tween runs its animation, it will end at 60 degrees clockwise from the tile's last rotation.
+    0.25,                           # This is the amount of time in seconds you want the Tween to run the animation for. This means that on the first run, 
+                                        # the Tween's animation will rotate the tile from 0 degrees to 60 degrees in 1/4 of a second.
+    Tween.TRANS_BACK,               # This is the animations's "TransitionType". I'll talk about this in the next section.
+    Tween.EASE_OUT                  # This is the animation's "EaseType". I'll talk about this in the next section.
+)
+</code></pre>
+<h4 id="transition-types-and-ease-types">Transition Types and Ease Types</h4>
+<p>Transition Types and Ease Types are values in Godot that represent the way animations play out.</p>
+
+<p><img src="/photos/tween_cheatsheet.png" width="700" height="500" /></p>
+
+:ET
