@@ -31,7 +31,7 @@ Here's what it looks like to rotate the Hexagon tile 60 degrees *WITHOUT TWEENIN
 <img src="/photos/HexagonRotateNoLife.gif" width="452" height="363"/>
 <br />
 And here's what it looks like to rotate the Hexagon tile *WITH JUICY TWEENING*.
-<img src="/photos/HexagonRotateLife.gif" width="452" height="363"/>
+<img src="/photos/HexagourdsRotateLife.gif" width="452" height="363"/>
 
 The rotation looks smoother right? And more fun.
 
@@ -68,7 +68,7 @@ In the above (GDScript Syntax) section, I used `BACK` as the Transition Type and
 <br />
 
 This means that when our Tween runs our rotation animation, the hexagon tile will rotate very fast at the beginning and then slow down near the end of the rotation. Notice in the graph that the <span style="color:red">RED line</span> has a huge curve at the top and then comes back down. This makes Hexagon tile rotate slightly too much and then snaps back like a rubberband!
-<img src="/photos/HexagonRotateLife.gif" width="452" height="363"/>
+<img src="/photos/HexagourdsRotateLife.gif" width="452" height="363"/>
 
 <br />
 <br />

@@ -7,7 +7,7 @@ title: Hexagourds
   Hexagourds is a casual, relaxing 3D tile-placement game where you rotate and place tiles to make your own pumpkin patch.
 </p>
 
-<img src="/HexagourdsMenu.gif" width="960" height="540"/>
+<img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/HexagourdsMenu.gif" width="960" height="540"/>
 
 ### What do you do in Hexagourds?
 * You make a pumpkin patch!
