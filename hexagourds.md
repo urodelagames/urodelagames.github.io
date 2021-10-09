@@ -6,8 +6,10 @@ title: Hexagourds
 <p class="message">
   Hexagourds is a casual, relaxing 3D tile-placement game where you rotate and place tiles to make your own pumpkin patch.
 </p>
-
 <img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/HexagourdsMenu.gif" width="960" height="540"/>
+
+<a href="https://store.steampowered.com/app/1778490/Hexagourds"><img src="/photos/Steam_Icon_2014.png" alt="hexagourds" style="width:42px;height:42px;">Wishlist On Steam!</a>
+<br>
 
 ### What do you do in Hexagourds?
 * You make a pumpkin patch!
@@ -21,7 +23,8 @@ title: Hexagourds
 * I'd love to have test/demo players help me decide on future features.
 
 ### When will Hexagourds be available?
-* I'll be releasing a free demo on itch.io and Steam in the next few weeks. I'm shooting for an October release of a free demo!
+* You can play <a href="https://store.steampowered.com/app/1778490/Hexagourds">the free demo on Steam</a> today!
+* The full game will be released in January of 2022.
 
 ### Gallery
 
