@@ -34,6 +34,9 @@ Castorly (https://urodelagames.itch.io/castorly) <br>
 The Day of The Warlock (https://urodelagames.itch.io/warlock) <br>
 The Lineage of Manny Cruz (https://urodelagames.itch.io/the-lineage-of-manny-cruz) <br>
 
+*Videos*<br>
+<a href="https://www.youtube.com/watch?v=NyDjNhgGTr8">Hexagourds Demo Trailer</a> <br>
+
 *Images* <br>
 <img src="/photos/UrodelaGamesLogo.PNG"/>
 <img src="/photos/Capture2.PNG"/>
