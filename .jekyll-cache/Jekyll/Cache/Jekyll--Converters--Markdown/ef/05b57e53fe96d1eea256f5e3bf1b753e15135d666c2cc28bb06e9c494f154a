@@ -1,0 +1,43 @@
+I"^	<p class="message">
+This blog post gives concrete examples on how to use Godot Tweens.
+<br />
+Using Tweens, I'll show how you can smoothly animate objects for things like position, color, rotation, and size.
+</p>
+
+<h1 id="eli5-explain-like-im-5-tweens-go">ELI5 (Explain like I’m 5) Tweens, Go.</h1>
+
+<div id="revue-embed">
+  <form action="https://www.getrevue.co/profile/urodelagames/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">
+  <div class="revue-form-group">
+    <label for="member_email">Email address</label>
+    <input class="revue-form-field" placeholder="Your email address..." type="email" name="member[email]" id="member_email" />
+  </div>
+  <div class="revue-form-group">
+    <label for="member_first_name">First name <span class="optional">(Optional)</span></label>
+    <input class="revue-form-field" placeholder="First name... (Optional)" type="text" name="member[first_name]" id="member_first_name" />
+  </div>
+  <div class="revue-form-group">
+    <label for="member_last_name">Last name <span class="optional">(Optional)</span></label>
+    <input class="revue-form-field" placeholder="Last name... (Optional)" type="text" name="member[last_name]" id="member_last_name" />
+  </div>
+  <div class="revue-form-actions">
+    <input type="submit" value="Subscribe" name="member[subscribe]" id="member_submit" />
+  </div>
+  <div class="revue-form-footer">By subscribing, you agree with Revue’s <a target="_blank" href="https://www.getrevue.co/terms">Terms of Service</a> and <a target="_blank" href="https://www.getrevue.co/privacy">Privacy Policy</a>.</div>
+  </form>
+</div>
+
+<hr />
+
+<h2 id="summary-and-tldr">Summary and TLDR.</h2>
+<ul>
+  <li>Tweens are an easy way to animate your game objects and give them life. Use them.</li>
+  <li>Experiment with different transitions and easing on the Tweens cheat sheet to find the perfect animation for your game.</li>
+  <li>(I think) Every object can be tweened. I use Tweens on 3D objects in my game and for the HUD. Of course Tweens can work in 2D too.</li>
+  <li><a href="/hexagourds">Hexagourds</a> is a simple game. But adding Tweens to it made it come alive.</li>
+</ul>
+
+<hr />
+
+<p>Thanks for reading. Let me know on <a href="https://twitter.com/urodelagames">Twitter</a> or <a href="https://urodelagames.itch.io">Itch.io</a> if you want more. Happy to help the rest of the game dev community.</p>
+:ET
