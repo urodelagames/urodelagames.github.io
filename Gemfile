@@ -4,3 +4,4 @@ gem "jekyll-paginate"
 gem "jekyll-gist"
 gem "redcarpet"
 gem "webrick"
+gem 'jekyll-seo-tag'
