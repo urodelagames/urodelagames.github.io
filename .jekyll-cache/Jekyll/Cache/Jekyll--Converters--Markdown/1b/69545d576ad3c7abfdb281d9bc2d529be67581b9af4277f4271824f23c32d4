@@ -1,0 +1,9 @@
+I"<<ul>
+  <li>I want to make more online multiplayer games to play with my friends.</li>
+  <li>But writing netcode sucks.</li>
+  <li>And I feel like many other devs feel this way too.</li>
+</ul>
+
+<p>Here’s a step by step guide on how to get a small, Godot starter project running as a multiplayer server in AWS.</p>
+
+:ET

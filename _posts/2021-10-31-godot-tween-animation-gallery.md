@@ -48,10 +48,4 @@ This blog post gives you a gallery of Tweens for simple 3D transforms.
 
 --- 
 
-# Use the Tween tool
-If you'd like the Tween tool I made, please *subscribe to my mailing list below*, and I'll share the tool with you!
-<a href="https://www.getrevue.co/profile/urodelagames"><img src="https://raw.githubusercontent.com/urodelagames/urodelagames.github.io/master/photos/UrodelaGamesLogoSubscribe.PNG" alt="subscribe link" style="width:469px;height:454px;"></a>
-
---- 
-
 Thanks for reading. Let me know on [Twitter](https://twitter.com/urodelagames) or [Itch.io](https://urodelagames.itch.io) if you want more. Happy to help the rest of the game dev community.
