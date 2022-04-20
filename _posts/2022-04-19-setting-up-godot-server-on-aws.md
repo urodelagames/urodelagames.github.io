@@ -99,7 +99,7 @@ Configure the EC2 instance on AWS.
 <img src="/photos/AWSInstanceSummary.png" width=819 height=100/>
 
 2. Under the `Security Groups` section, click on the security group named something like `sg-0a7003edc6121a09c`. 
-<img src="https://github.com/urodelagames/urodelagames.github.io/blob/master/photos/AWSSecurityGroupId.PNG" height=249 width=739/>
+<img src="https://raw.githubusercontent.com/urodelagames/urodelagames.github.io/master/photos/AWSSecurityGroupId.PNG" height=249 width=739/>
 
 3. Click `Edit Inbound Rules`.
 
