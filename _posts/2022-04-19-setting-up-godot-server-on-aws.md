@@ -9,7 +9,7 @@ title: Setting up a Godot Server on AWS
 I make a lot of awful games. But with multiplayer, I can force my friends to play my awful games with me.
 <br>
 <br>
-![test3](/photos/netcode-matchy-miners.gif)
+![test3](https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/netcode-matchy-miners.gif)
 _Here's my last multiplayer game, [Matchy Miners](https://urodelagames.itch.io/matchy-miners)._
 
 <br>
@@ -99,7 +99,7 @@ Configure the EC2 instance on AWS.
 <img src="/photos/AWSInstanceSummary.png" width=819 height=100/>
 
 2. Under the `Security Groups` section, click on the security group named something like `sg-0a7003edc6121a09c`. 
-<img src="/photos/AWSSecurityGroupId.png" height=249 width=739/>
+<img src="https://github.com/urodelagames/urodelagames.github.io/blob/master/photos/AWSSecurityGroupId.PNG" height=249 width=739/>
 
 3. Click `Edit Inbound Rules`.
 
@@ -128,11 +128,11 @@ Instead of running the server executable on your local machine, we're going to u
 		- `[PCK_FILE_NAME]` is the path to the `.pck` file
 		- `[PUBLIC_IPV4_DNS]` is the value called `public IPv4 DNS` on the AWS console.
 
-	<img src="/photos/AWSDns.png" height=402 width=529/>
+	<img src="https://github.com/urodelagames/urodelagames.github.io/blob/master/photos/AWSDns.PNG?raw=true" height=402 width=529/>
 	
 	
 ---
-> ### Step 6
+> ### Step 7
 Run the Godot server on the EC2 instance on AWS.
 
 1. SSH into the EC2 instance on AWS.
@@ -155,7 +155,7 @@ Play the game while connected to your server on AWS!
 4. Press `Join` and enjoy! Have multiple people join the same `Server Host IP`!
 
 
-![test2](/photos/godot-starter.gif)
+![test2](https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/godot-starter.gif)
 
 ---
 
