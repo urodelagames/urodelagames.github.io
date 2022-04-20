@@ -1,0 +1,194 @@
+I"v<blockquote>
+  <h2 id="if-you-want-to-make-your-first-multiplayer-game-with-godot-i-think-i-can-help-you">If you want to make your first multiplayer game with Godot, I think I can help you.</h2>
+</blockquote>
+
+<p>I make a lot of awful games. But with multiplayer, I can force my friends to play my awful games with me.</p>
+
+<p>Here’s a step-by-step tutorial on getting a very starter multiplayer project with Godot running in AWS.</p>
+
+<hr />
+<blockquote>
+  <h3 id="should-i-know-things-before-doing-this-tutorial">Should I know things before doing this tutorial?</h3>
+</blockquote>
+
+<p>Not necessarily.</p>
+
+<p>It would be good if you’ve created a game using Godot in the past. It’s a small starter project, but it uses concepts like instancing, signals, and singletons.</p>
+
+<p>But eh, you should just try the project and poke around - you’ll figure it out.</p>
+
+<hr />
+<blockquote>
+  <h3 id="step-1">Step 1</h3>
+  <p>Download the starter project.</p>
+</blockquote>
+
+<ol>
+  <li>Download or clone the project from <a href="https://github.com/urodelagames/godot-network-multiplayer-starter">the github repo</a>.</li>
+  <li>Import the project into Godot.
+    <ol>
+      <li>Launch Godot.</li>
+      <li>Click <code>Import</code>.</li>
+      <li>Navigate to the <code>.project</code> file in the downloaded <code>godot-network-multiplayer-starter</code> project.</li>
+      <li>Click <code>Import &amp; Edit</code>.</li>
+    </ol>
+  </li>
+</ol>
+
+<hr />
+<blockquote>
+  <h3 id="step-2">Step 2</h3>
+  <p>Create the server locally.</p>
+</blockquote>
+
+<ol>
+  <li>With Godot open, navigate to <code>res://Scenes/Network.tscn</code>.</li>
+  <li>Click the root node <code>Network</code>.</li>
+  <li>In the inspector, set <code>Connection Type</code> to <code>server</code>.</li>
+  <li>Export the project as an executable. (<code>Project &gt; Export &gt; Export Project</code>)
+    <ul>
+      <li>This executable will be your server!</li>
+    </ul>
+  </li>
+  <li>Run the executable.
+    <ul>
+      <li>Once you run the server, you don’t have to do anything else with it. Just make sure its running.</li>
+    </ul>
+  </li>
+</ol>
+
+<hr />
+<blockquote>
+  <h3 id="step-3">Step 3</h3>
+  <p>Run the game locally!</p>
+</blockquote>
+
+<ol>
+  <li>In the Godot project, go back to <code>res://Scenes/Network.tscn</code>.</li>
+  <li>In the inspector, set <code>Connection Type</code> to <code>client</code>.</li>
+  <li>Play the project!</li>
+  <li>In the game window, type in your name and the server host.
+    <ul>
+      <li>Your name is up to you!</li>
+      <li>The server host will be <code>127.0.0.1</code> for now.
+        <ul>
+          <li><em><code>127.0.0.1</code> or <code>localhost</code> represents the computer that the code is working on.</em></li>
+        </ul>
+      </li>
+      <li>Something like this:<img src="/photos/JoinServerUI.png" width="300" height="100" /></li>
+    </ul>
+  </li>
+  <li>Press <code>Join</code>.
+    <ul>
+      <li>You should now be in the game.</li>
+    </ul>
+  </li>
+  <li>Move around with W/A/S/D or Up/Left/Down/Right.</li>
+  <li>Type in chat by pressing Enter.</li>
+</ol>
+
+<hr />
+<p class="message">
+:information_source:
+Remember the server we had running in Step 2?
+</p>
+<ul>
+  <li>Put that window right up next to your Godot game window.</li>
+  <li>When you move or chat in the game window, you’ll see yourself move on the server!</li>
+</ul>
+
+<hr />
+<blockquote>
+  <h3 id="step-4">Step 4</h3>
+  <p>Create the server on AWS.</p>
+</blockquote>
+
+<p class="message">
+:warning: This is the part where we put the server actually on the internet, in the AWS cloud. Make sure you undestand how it works locally before moving on.
+</p>
+
+<ol>
+  <li>
+    <p><a href="https://signin.aws.amazon.com">Create a free AWS account here</a> if you don’t already have one.
+The page should look like this after logging in.
+<img src="/photos/AWSLogin.png" height="394" width="720" /></p>
+  </li>
+  <li>
+    <p>Navigate to <code>Services &gt; Compute &gt; EC2</code>.
+<img src="/photos/AWSComputeScreenshot.png" height="335" width="250" /></p>
+  </li>
+  <li>
+    <p>Launch a free EC2 instance.</p>
+    <ul>
+      <li>:information_source: An EC2 instance is basically just a server in the AWS cloud.
+        <ol>
+          <li>Click <code>Launch Instance</code>.
+ <img src="/photos/AWSLaunchInstance.png" height="189" width="240" /></li>
+          <li>:warning: Make sure to choose the <code>t2.micro</code> instance type. It should say <code>free tier eligible</code>. 
+ <img src="/photos/AWSAMI.png" height="350" width="770" /></li>
+          <li>Create a key pair so that you are authorized to connect to the server later.</li>
+        </ol>
+        <ul>
+          <li>Click <code>Create a new key pair</code>.<img src="/photos/AWSKeyPair.png" height="134" width="532" /></li>
+          <li>Use these values are press <code>Create key pair</code>. <img src="/photos/AWSKeyPair2.png" width="368" height="467" /></li>
+          <li>After you create the key pair, it should save a <code>.pem</code> file to your computer. Remember that location.
+    4. Press <code>Launch Instance</code>.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<hr />
+<blockquote>
+  <h3 id="step-5">Step 5</h3>
+  <p>Configure the EC2 instance on AWS.</p>
+</blockquote>
+
+<ol>
+  <li>
+    <p>Click on the EC2 <code>Instance ID</code>. It should be named something like <code>i-0a8f5d7cafdc0a9e6</code>.
+<img src="/photos/AWSInstanceSummary.png" width="819" height="100" /></p>
+  </li>
+  <li>
+    <p>Under the <code>Security Groups</code> section, click on the security group named something like <code>sg-0a7003edc6121a09c</code>. 
+<img src="/photos/AWSSecurityGroupId.png" height="249" width="739" /></p>
+  </li>
+  <li>
+    <p>Click <code>Edit Inbound Rules</code>.</p>
+  </li>
+  <li>Click <code>Add Rule</code>. Select <code>All Traffic</code> for <code>Type</code> and <code>Anywhere-IPv4</code> for <code>Source</code>.
+    <ul>
+      <li>:warning: <em>This makes your server very insecure. But for the purposes for our first multiplayer game, it’s fine. Make note that security will have to be tighter for a commercial game.</em></li>
+    </ul>
+  </li>
+  <li>
+    <p>Click <code>Save Rules</code>.</p>
+  </li>
+  <li>Repeat steps #3 through #5 for <code>Outbound Rules</code>. Start at <code>Edit Outbound Rules</code>.</li>
+</ol>
+
+<hr />
+<blockquote>
+  <h3 id="step-6">Step 6</h3>
+  <p>Upload the server executable to the EC2 instance on AWS.</p>
+</blockquote>
+
+<p>Instead of running the server executable on your local machine, we’re going to upload it to AWS EC2 and run it from there.</p>
+
+<blockquote>
+  <p>:warning: <em>This next part is much easier with access to a bash terminal. You’ll need to run <code>chmod</code> permissions commands, <code>scp</code> commands to write files to AWS, and <code>ssh</code> commands to run Godot on AWS.</em></p>
+</blockquote>
+
+<ol>
+  <li>In the Godot project, export the project as a Linux build (<code>.x86_64</code> and <code>.pck</code> files).</li>
+  <li>Open your terminal/command prompt on your local machine.</li>
+  <li>Navigate to a folder that has both the <code>.pem</code> file and the <code>.pck</code> file.</li>
+  <li>Change permissions to <code>.pem</code> file. On a bash terminal, run <code>chmod 400 my-key-pair.pem</code>.</li>
+  <li>Copy the <code>.pck</code> file from your local machine to the EC2 instance using an <code>scp</code> command:
+    <ul>
+      <li>scp -i “my-key-pair.pem” ec2-user@ec2-3-236-156-219.compute-1.amazonaws.com</li>
+    </ul>
+  </li>
+</ol>
+:ET
