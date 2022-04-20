@@ -29,6 +29,7 @@ plugins:
   - jekyll-gist
   - redcarpet
   - jekyll-seo-tag
+  - jemoji
 
 # Google Analytics
 google_analytics: G-6LFBJ4RPL0

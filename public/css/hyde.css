@@ -257,3 +257,10 @@ a.sidebar-nav-item:focus {
 .theme-base-dd0 .related-posts li a:hover {
   color: #677f5f;
 }
+
+img.emoji {
+    display: inline;
+    height: 1em;
+    width: 1em;
+    margin-bottom: 0.25em;
+}
