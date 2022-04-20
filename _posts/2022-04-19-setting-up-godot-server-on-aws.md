@@ -12,8 +12,12 @@ I make a lot of awful games. But with multiplayer, I can force my friends to pla
 ![test3](https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/netcode-matchy-miners.gif)
 _Here's my last multiplayer game, [Matchy Miners](https://urodelagames.itch.io/matchy-miners)._
 
+--- 
+
 <br>
 <p class="message"> :star2: Here's a step-by-step tutorial on getting a very starter multiplayer project with Godot running in AWS.</p>
+By the end, we'll get a multiplayer game like this running in AWS.
+![test2](https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/godot-starter.gif)
 
 ---
 
