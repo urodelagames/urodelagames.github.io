@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Tween Animation Gallery
+title: Godot Tween Animation Gallery
 ---
 
 <p class="message">
-This blog post gives you a gallery of Tweens for simple 3D transforms.
+This blog post gives you a gallery of Godot Tweens for simple 3D transforms.
 </p>
 
 ### Scale, Transition Back, Ease In
@@ -47,5 +47,3 @@ This blog post gives you a gallery of Tweens for simple 3D transforms.
 <img src="https://media.githubusercontent.com/media/urodelagames/urodelagames.github.io/master/photos/transSine_easeOut.gif" width="600" height="363"/>
 
 --- 
-
-Thanks for reading. Let me know on [Twitter](https://twitter.com/urodelagames) or [Itch.io](https://urodelagames.itch.io) if you want more. Happy to help the rest of the game dev community.
