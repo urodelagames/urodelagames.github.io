@@ -9,15 +9,12 @@ title: About
 * I'm a solo indie game developer from Arlington, VA in USA. 
 * This is my blog about game development things. 
 * Game dev involves way too many things, but I enjoy almost all of it. I enjoy game design the most.
-* This blog is a lot about how the dev, art, and music choices I make impact my game's overall game design.
 
 <br />
 <img src="/photos/daviddalisayblogprofilephoto.JPG" width="378" height="504"/>
 *My wife Erin and my dog Hero.*
 
 --- 
-
-I'm currently working on a game called [Hexagourds](/hexagourds): A relaxing rotate-em-up game where you make a pumpkin patch.
 
 Here's how you can reach me:
 * [Twitter](https://twitter.com/urodelagames)
