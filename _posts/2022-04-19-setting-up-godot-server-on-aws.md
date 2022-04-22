@@ -2,7 +2,7 @@
 layout: post
 title: Setting up a Godot Server on AWS
 ---
-> ## If you want to make your first multiplayer game with Godot, I think I can help you.
+> ## If you want to make your first multiplayer game with Godot on AWS, I think I can help you.
 
 
 
@@ -163,6 +163,4 @@ Play the game while connected to your server on AWS!
 
 ---
 
-I'll write another post to explain the netcode!
-
-Thanks for reading. Let me know on [Twitter](https://twitter.com/urodelagames) or [Itch.io](https://urodelagames.itch.io) if you want more. Happy to help the rest of the game dev community.
+Setting up AWS resources can be scary, but it can be really helpful in getting your first online multiplayer game setup with Godot.
