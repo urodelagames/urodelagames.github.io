@@ -75,7 +75,7 @@ I start thinking about turning this design into an actual video game...
 * :heavy_check_mark: Flicked piece can "listen" to other pieces in earshot. (*Category*)
 
 <br>
-![test](/photos/flicky-manor.gif)
+![test](https://github.com/urodelagames/urodelagames.github.io/raw/master/photos/flicky-manor.gif)
 <p style="text-align: center;">First prototype of <i>Server Spies</i> - The game is ready for Steam :laughing:</p>
 
 <br>
@@ -113,7 +113,7 @@ Thinking back to our constraints, answers emerge (and then some):
 		- :bulb: Maybe the game is a murder mystery!
 
 <br>
-![test](/photos/flicky-move.png)
+![test](https://github.com/urodelagames/urodelagames.github.io/raw/master/photos/flicky-move.PNG)
 <p style="text-align: center;"> :robot: :robot: :robot: <b>ROBO-BUTLERS</b>  :robot: :robot: :robot:</p>
 <br>
 
