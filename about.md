@@ -4,7 +4,7 @@ title: About
 ---
 
 <p class="message">
-  Hello! My name is David Dalisay but I usually go by the name Urodela Games.
+  Hello! My name is Dave McWave.
 </p>
 * I'm a solo indie game developer from Arlington, VA in USA. 
 * This is my blog about game development things. 
