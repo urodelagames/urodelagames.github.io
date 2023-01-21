@@ -144,7 +144,7 @@ Games are never finished, anyone in game development knows that. But I knew for 
 Here's a list of things regarding constraints I thought about as I closed:
 - Does my game fulfill my original constraints?
 - If you strip away the assets and the juice, does my game still address my constraints?
-- When other people player my game, do they notice the constraints? Or do they notice something completely different?
+- When other people play my game, do they notice the constraints? Or do they notice something completely different?
 - How long did it take me to design the game vs implement the game?
 	- Did I design too big of a game? Or did I implement more than I designed?
 
