@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setting up a Godot Server on AWS
+title: Godot Multiplayer on AWS
 ---
 > ## If you want to make your first multiplayer game with Godot on AWS, I think I can help you.
 
