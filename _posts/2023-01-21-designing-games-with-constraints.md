@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Designing Games with Constraints
+title: How To Start Game Design - Designing Games with Constraints
 ---
 <br>
 
