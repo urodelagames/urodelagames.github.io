@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Email Submission Form</title>
   <style>
     body {
@@ -17,6 +18,7 @@
       background-color: #ffffff;
       border-radius: 5px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
     }
 
     h1 {
@@ -45,15 +47,32 @@
     input[type="submit"]:hover {
       background-color: #45a049;
     }
+
+    /* Responsive styles */
+    @media (max-width: 480px) {
+      .container {
+        max-width: 300px;
+        margin: 50px auto;
+        padding: 10px;
+      }
+
+      input[type="email"], input[type="submit"] {
+        width: 100%;
+      }
+    }
   </style>
   <script>
     window.addEventListener("DOMContentLoaded", function() {
+      var container = document.querySelector(".container");
       document.getElementById("emailForm").addEventListener("submit", function(event) {
         event.preventDefault();
         var email = document.getElementById("emailInput").value;
         // You can perform additional validation or send the email address to a server using AJAX if needed.
-        // For this example, we'll redirect the user directly.
-        window.location.href = "https://www.example.com/redirect-page";
+        // For this example, we'll simulate a loading state and then redirect the user.
+        container.style.transform = "scale(0.95)";
+        setTimeout(function() {
+          window.location.href = "https://www.example.com/redirect-page";
+        }, 1000);
       });
     });
   </script>
