@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Email Submission Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 100px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+  <script>
+    window.addEventListener("DOMContentLoaded", function() {
+      document.getElementById("emailForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+        var email = document.getElementById("emailInput").value;
+        // You can perform additional validation or send the email address to a server using AJAX if needed.
+        // For this example, we'll redirect the user directly.
+        window.location.href = "https://www.example.com/redirect-page";
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>Submit Your Email Address</h1>
+    <form id="emailForm">
+      <input type="email" id="emailInput" placeholder="Enter your email address" required>
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
